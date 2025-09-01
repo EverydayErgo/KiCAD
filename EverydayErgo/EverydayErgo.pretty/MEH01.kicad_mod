@@ -372,7 +372,7 @@
 		(uuid "2f1f0156-76e5-477c-9664-146f15b19ed2")
 	)
 	(fp_text user "B"
-		(at 0.5 3 0)
+		(at 4.5 3 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "5733709d-4b96-4e45-8803-30829bfefd1a")
@@ -381,11 +381,11 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "A"
-		(at 3.5 3 0)
+		(at 4.5 8 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "71442eea-f8f0-4b5d-999b-789ab1fc76e2")
@@ -394,11 +394,11 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "C"
-		(at -2.5 3 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "a5a5ca4d-44fb-4604-a2d3-fff69f1a7f5f")
@@ -407,7 +407,7 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
-			(justify left bottom)
+			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -423,7 +423,7 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -2.04 0)
+		(at -0.5 0)
 		(size 2.54 2.54)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.15)
@@ -431,7 +431,7 @@
 		(uuid "44ce7cca-7b6d-4aac-8f8a-b2a6e5a840a6")
 	)
 	(pad "2" smd roundrect
-		(at 0.96 0)
+		(at 4 0)
 		(size 2.54 2.54)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.15)
@@ -439,7 +439,7 @@
 		(uuid "111cedb7-c2b3-4206-aea6-b5e130e6d0ed")
 	)
 	(pad "3" smd roundrect
-		(at 3.96 0)
+		(at 4 5)
 		(size 2.54 2.54)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.15)
@@ -447,7 +447,7 @@
 		(uuid "df6cdef2-301f-44a0-b5bb-288770316ced")
 	)
 	(pad "4" smd roundrect
-		(at -5.04 -1.5)
+		(at -5 -3)
 		(size 2.54 2.54)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.15)
@@ -455,7 +455,7 @@
 		(uuid "5f8b9906-de37-40fc-9841-41478456fb88")
 	)
 	(pad "5" smd roundrect
-		(at -5.04 1.5)
+		(at -5 1)
 		(size 2.54 2.54)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.15)
